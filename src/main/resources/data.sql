@@ -26,3 +26,7 @@ INSERT INTO IPhone (model, ios, releaseYear) VALUES ('iPhone 14', 'iOS 16', 2022
 INSERT INTO IPhone (model, ios, releaseYear) VALUES ('iPhone 14 Pro', 'iOS 16', 2022 );
 INSERT INTO IPhone (model, ios, releaseYear) VALUES ('iPhone 15', 'iOS 17', 2023 );
 INSERT INTO IPhone (model, ios, releaseYear) VALUES ('iPhone 15 Pro', 'iOS 17', 2023 );
+
+
+
+INSERT INTO ANDROID (model, os, releaseYear) VALUES ('an Android phone', 'Oreo', 2024 );

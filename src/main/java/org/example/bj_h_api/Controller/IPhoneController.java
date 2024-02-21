@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/iPhones")
+@RequestMapping("/api/iPhone")
 public class IPhoneController {
     @Autowired
     IPhoneService iPhoneService;
