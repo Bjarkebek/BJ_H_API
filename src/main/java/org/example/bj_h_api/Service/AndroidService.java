@@ -24,9 +24,7 @@ public class AndroidService {
         return repo.findById(id).get();
     }
 
-    public void saveOrUpdateAndroid(Android android) {
-        repo.save(android);
-    }
+    public void saveOrUpdateAndroid(Android android) { repo.save(android); }
 
     //deleting a specific record
     public void deleteAndroid(int id) {

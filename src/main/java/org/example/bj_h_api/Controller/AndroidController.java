@@ -31,9 +31,7 @@ public class AndroidController {
     }
 
     @PutMapping("/{id}")
-    void saveOrUpdateAndroid(@RequestBody Android updAndroid) {
-        androidService.saveOrUpdateAndroid(updAndroid);
-    }
+    void saveOrUpdateAndroid(@RequestBody Android updAndroid) { androidService.saveOrUpdateAndroid(updAndroid); }
 
     @DeleteMapping("/{id}")
     public Boolean deleteAndroid(@PathVariable int id) {
