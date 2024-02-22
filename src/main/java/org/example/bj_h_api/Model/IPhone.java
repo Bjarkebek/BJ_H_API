@@ -14,7 +14,7 @@ public class IPhone {
     @Column(nullable = true)
     private String ios;
     @Column(nullable = true)
-    private int releaseyear;
+    private int released;
 
 
 
@@ -25,6 +25,6 @@ public class IPhone {
     public void setModel(String model) { this.model = model; }
     public String getIos() { return ios; }
     public void setIos(String ios) { this.ios = ios; }
-    public int getReleaseYear() { return releaseyear; }
-    public void setReleaseYear() { this.releaseyear = releaseyear; }
+    public int getReleased() { return released; }
+    public void setReleased() { this.released = released; }
 }
