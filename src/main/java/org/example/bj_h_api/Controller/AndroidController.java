@@ -30,7 +30,7 @@ public class AndroidController {
         androidService.saveOrUpdateAndroid(android);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping()
     void saveOrUpdateAndroid(@RequestBody Android updAndroid) { androidService.saveOrUpdateAndroid(updAndroid); }
 
     @DeleteMapping("/{id}")
